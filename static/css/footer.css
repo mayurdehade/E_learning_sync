@@ -1,0 +1,134 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 40px;
+    align-items: top;
+    flex-wrap: wrap;
+    background-color: #111;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+footer .col-1,
+footer .col-2,
+footer .col-3,
+footer .col-4{
+    margin-right: 150px;
+}
+footer .col-1 .title{
+    font-size: 25px;
+    color: #fff;
+}
+footer .col-1 .title span{
+    color: #698cff;
+}
+footer .col-1 .copyright{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(170, 170, 170, 0.789);
+}
+footer .col-1 .policy a{
+    text-decoration: none;
+    color: #aaa;
+}
+footer .col-2 .head,
+footer .col-3 .head,
+footer .col-4 .head{
+    font-size: 20px;
+    padding-left: 3px;
+    color: #fff;
+    border-left: 2px solid red;
+    margin-bottom: 10px;
+}
+footer .col-2 .links,
+footer .col-3 .links{
+ display: flex;
+ flex-direction: column;
+}
+footer .col-2 .links a,
+footer .col-3 .links a{
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #aaa;
+    transition: .5s;
+}
+footer .col-2 .links a:hover,
+footer .col-3 .links a:hover{
+    color: royalblue;
+}
+footer .col-4 p{
+    font-size: 17px;
+    color: #aaa;
+}
+footer .col-4 .social-icons{
+    display: flex;
+    margin-top: 20px;
+}
+footer .col-4 .social-icons .facebook a i{
+    padding: 13px;
+    background-color: #4267B2;
+    color: #fff;
+    border-radius: 50%;
+}
+footer .col-4 .social-icons .facebook a i:hover{
+    margin-top: -10px;
+}
+footer .col-4 .social-icons .insta a i{
+    padding: 13px;
+    background-color: rgb(225, 16, 207);
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+footer .col-4 .social-icons .insta a i:hover{
+    margin-top: -10px;
+}
+footer .col-4 .social-icons .twitter a i{
+    padding: 13px;
+    background-color: #00acee;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+footer .col-4 .social-icons .twitter a i:hover{
+    margin-top: -10px;
+}
+
+
+@media (max-width:600px){
+    footer .col-1{
+        width: 100%;
+    }
+    footer .col-2,
+    footer .col-3,
+    footer .col-4{
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+@media (max-width:923px){
+    footer .col-4{
+        margin-right: 0px;
+    }
+    footer .col-4{
+        margin-top: 30px;
+    }
+    footer .col-1,
+    footer .col-2{
+        margin-right: 50px;
+    }
+    footer .col-3{
+        margin-right: 0px;
+    }
+ }
+ @media (max-width:923px) and (min-width:770px){
+         footer .col-4{
+             width: 100%;
+         }
+ }
+ @media (max-width:673px){
+     
+ }
